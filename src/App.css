@@ -24,14 +24,27 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.person {
+  color: cadetblue;
+  background-color: khaki;
+  border: 5px solid black;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.friend {
+  background-color: gray;
+  border-radius: 20px;
+  border: 5px solid black;
+  margin: 20px;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
